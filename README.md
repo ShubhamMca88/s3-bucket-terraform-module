@@ -41,3 +41,6 @@ module "s3_bucket" {
 ## Outputs
 - `bucket_name`: The name of the S3 bucket
 - `bucket_arn`: The ARN of the S3 bucket 
+
+## Workflow graph
+<img src="https://www.mermaidchart.com/raw/4eee3095-08e5-4f61-94e5-f5927087fa3a?theme=light&version=v0.1&format=svg" alt="S3 Bucket Terraform Module Diagram" />
