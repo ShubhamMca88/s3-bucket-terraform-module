@@ -1,0 +1,25 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude override files
+*.tfvars
+*.tfvars.json
+
+# Exclude plan output
+*.tfplan
+
+# Exclude sensitive files
+.terraformrc
+terraform.rc
+
+# Exclude Draw.io autosave and backup files
+*.drawio~
+*.drawio.bak
